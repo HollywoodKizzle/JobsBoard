@@ -1,0 +1,12 @@
+##customize the weight of font awesome icons via psuedoelements:
+https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
+
+	
+	
+	
+	
+	*method to approximate a given font:
+	 determine the font family by visual expection of proportionality and the presence of serifs;
+	 determine the font-size by determining the height of the biggest characther;
+	 
+	 

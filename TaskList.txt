@@ -1,0 +1,17 @@
+Task List
+
+
+
+Task 1
+	Set up the header section of the page.This includes the Settings header, back button, sign out link and the user circle avatar
+	
+	Sub Task 1:
+		approximate the type face and font of the Settings heading and the Sign out link and back button; implement their layout with the appropiate horizontal spacing
+		
+	
+	Sub Task 2
+		Implement the user circle with the approximate sizing and color; position the user correctly with respect to it's parent container and siblings
+		
+		
+	Sub Task 3
+		implement the correct stylings for the icons of the settings list;implement the layout for the settings list

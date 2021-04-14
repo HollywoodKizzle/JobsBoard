@@ -1,0 +1,23 @@
+body{
+	font-family: sans-serif;
+	font-size: 19px;
+	color: #6E7882;
+	font-weight: 500;
+}
+header{
+    display: flex;}
+
+.header--h1{
+    margin: 0px;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.fa-angle-left{
+	font-size: 37px;
+	font-weight: 900;
+}
+
+.fa-angle-right{
+	font-size: 31px;
+}
