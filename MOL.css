@@ -56,6 +56,21 @@ body{
 	
 }
 
+.ResetPasswrd--i{
+	color: #F6C239;
+}
+
+.Notification--i, .Notification--toggle{
+	color:#24A99B;
+}
+
+.BlockedUsers--i{
+	color:#CD5A6D;}
+
+.LinkedAccounts--i{
+	color:#7FA7BA;
+}
+
 /*Header Layout*/
 
 header{
