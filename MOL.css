@@ -54,3 +54,10 @@ header{
 .header--h1{
 	margin-left: 60px;
 }
+
+/*Avatar layout*/
+.avatar{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}

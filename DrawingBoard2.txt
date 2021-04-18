@@ -12,6 +12,13 @@
 	 
 	 distance between sign out and viewport right edge: 22px
 	 
-	 vertical distance between the body of the header and the top edge of the viewport:
+	 vertical distance between the body of the header and the top edge of the viewport: 20px
+	 
+	 
+	 
+	 distance between avatar and left edge of veiwport: 75px
+	 distance between avatar and right edge of viewport: 75px
+	 verteical distance between center of avatar and settings: 65px
+	 vertical distance between center of avatar and horizontyal rule below it: 65px 
 	 
 	 **Horizontal spacing best achieved via margin-left/margin-right properties
