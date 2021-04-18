@@ -9,7 +9,7 @@ X	Sub Task 1:
 		approximate the type face and font of the Settings heading and the Sign out link and back button; implement their layout with the appropiate horizontal spacing
 		
 	
-	Sub Task 2
+X	Sub Task 2
 		Implement the user circle with the approximate sizing and color; position the user correctly with respect to it's parent container and siblings
 		
 		

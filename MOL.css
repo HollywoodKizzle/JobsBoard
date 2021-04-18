@@ -15,14 +15,16 @@ body{
 
 }
 
-
+/*back button*/
 .fa-angle-left{
 	font-size: 20px;
 	font-weight: 900;}
 
+/*Settings buttons*/
 .fa-angle-right{
 	font-size: 20px;
 }
+
 .avatar{
 	width: 90px;
 	height: 90px;
@@ -30,11 +32,28 @@ body{
 	text-align: center;
 	background-color: #C3D0D9;
 }
+/*user avatar icon*/
 .avatar--i{
 	font-size: 30px;
 	margin-top: 30px;
 
 
+}
+
+.Settings{
+	list-style-type: none;
+}
+
+.profile{
+	background-color: #2989D8;
+	width: 20px;
+	text-align: center;
+}
+/*icon adjacent to "Edit Profile"*/
+.profile--i{
+	color: #F2FEFA;
+	font-size: 14px;
+	
 }
 
 /*Header Layout*/
