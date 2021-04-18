@@ -1,9 +1,15 @@
 
 
+##Distribution of space along the main axis flexbox
 	
 	
 	
-	
-	
+	 distance between settings and sign out: 40px
 	 
+	X distance between veiwport left edge and back button: 18px
 	 
+	 distance between back button and settings: 75px
+	 
+	 distance between sign out and viewport right edge: 22px
+	 
+	 **Horizontal spacing best achieved via margin-left/margin-right properties

@@ -1,23 +1,31 @@
 body{
 	font-family: sans-serif;
-	font-size: 19px;
+	font-size: 14px;
 	color: #6E7882;
 	font-weight: 500;
+	margin: 0px;
 }
 header{
     display: flex;
-    justify-content: space-between;}
+    justify-content: flex-start;}
 
 .header--h1{
     margin: 0px;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 500;
+    margin-left: 60px;
 
 }
+.header--backbutton{
+	margin-left: 18px;
+}
+
+.header--a{
+	margin-left: 25px;}
 .fa-angle-left{
-	font-size: 37px;
+	font-size: 20px;
 	font-weight: 900;}
 
 .fa-angle-right{
-	font-size: 31px;
+	font-size: 20px;
 }
