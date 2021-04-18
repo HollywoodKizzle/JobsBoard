@@ -12,4 +12,6 @@
 	 
 	 distance between sign out and viewport right edge: 22px
 	 
+	 vertical distance between the body of the header and the top edge of the viewport:
+	 
 	 **Horizontal spacing best achieved via margin-left/margin-right properties
