@@ -45,7 +45,7 @@ body{
 }
 
 .Settings li{
-border: 1px solid;
+border: 1px solid #DADEE2;
 border-bottom: none;
 border-right: none;
 border-left: none;
@@ -86,6 +86,11 @@ height: 40px;
 .AddAccount--i{
 	color: #7A70E5;
 }
+
+.Divider{
+	height: 25px;
+	width: 100%;
+	background-color: #F8FAF9;}
 
 /*Header Layout*/
 
