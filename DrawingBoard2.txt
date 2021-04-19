@@ -1,33 +1,8 @@
 
 
-##Distribution of space along the main axis flexbox
+
 	
 	
 	
-	 distance between settings and sign out: 40px
+	
 	 
-	X distance between veiwport left edge and back button: 18px
-	 
-	 distance between back button and settings: 75px
-	 
-	 distance between sign out and viewport right edge: 22px
-	 
-	 vertical distance between the body of the header and the top edge of the viewport: 20px
-	 
-	 
-	 
-	 distance between avatar and left edge of veiwport: 75px
-	 distance between avatar and right edge of viewport: 75px
-	 verteical distance between center of avatar and settings: 65px
-	 vertical distance between center of avatar and horizontyal rule below it: 65px 
-	 
-	 distance between the top borders of vertically adjacent Settings tabs: 40px
-	 
-	 vertical distance between Settings icons and the borders above and below them: 13px
-	 
-	 hprizontal distance between settings icon and settings: 15px 
-	 horizontal distance between settings icon and left edge of viewport: 15px
-	 horizontal distance between settings and back button:
-	 horizontal distance between back button and right edge of viewport: 20px 
-	 
-	 **Horizontal spacing best achieved via margin-left/margin-right properties
