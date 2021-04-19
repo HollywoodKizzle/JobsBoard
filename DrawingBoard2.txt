@@ -25,9 +25,9 @@
 	 
 	 vertical distance between Settings icons and the borders above and below them: 13px
 	 
-	 hprizontal distance between settings icon and settings:
-	 horizontal distance between settings icon and left edge of viewport:
+	 hprizontal distance between settings icon and settings: 15px 
+	 horizontal distance between settings icon and left edge of viewport: 15px
 	 horizontal distance between settings and back button:
-	 horizontal distance between back button and right edge of viewport:
+	 horizontal distance between back button and right edge of viewport: 20px 
 	 
 	 **Horizontal spacing best achieved via margin-left/margin-right properties

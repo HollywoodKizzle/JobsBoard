@@ -56,11 +56,13 @@ height: 40px;
 	width: 20px;
 	height: 20px;
 	text-align: center;
+	margin-left: 15px;
 }
 /*icon adjacent to "Edit Profile"*/
 .profile--i{
 	color: #F2FEFA;
 	font-size: 14px;
+	margin-left: 0px!important;
 	
 }
 
@@ -116,7 +118,18 @@ header{
 
 .Settings li{
 	display: flex;
-	align-items: center;
-	
+	align-items: center;	
+}
 
+.Settings i{
+	margin-left: 15px;
+}
+
+.Settings p{
+	margin-left: 15px;
+}
+
+.fa-angle-right{
+    position: absolute;
+    right: 20px;
 }
