@@ -44,6 +44,13 @@ body{
 	list-style-type: none;
 }
 
+.Settings li{
+border: 1px solid;
+border-bottom: none;
+height: 40px;
+}
+ 
+
 .profile{
 	background-color: #2989D8;
 	width: 20px;
@@ -70,6 +77,10 @@ body{
 
 .LinkedAccounts--i{
 	color:#7FA7BA;
+}
+
+.AddAccount--i{
+	color: #7A70E5;
 }
 
 /*Header Layout*/
@@ -105,5 +116,7 @@ header{
 
 .Settings li{
 	display: flex;
-	border: 2px solid;
+	align-items: center;
+	
+
 }

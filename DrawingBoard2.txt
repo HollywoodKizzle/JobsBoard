@@ -21,4 +21,13 @@
 	 verteical distance between center of avatar and settings: 65px
 	 vertical distance between center of avatar and horizontyal rule below it: 65px 
 	 
+	 distance between the top borders of vertically adjacent Settings tabs: 40px
+	 
+	 vertical distance between Settings icons and the borders above and below them: 13px
+	 
+	 hprizontal distance between settings icon and settings:
+	 horizontal distance between settings icon and left edge of viewport:
+	 horizontal distance between settings and back button:
+	 horizontal distance between back button and right edge of viewport:
+	 
 	 **Horizontal spacing best achieved via margin-left/margin-right properties
