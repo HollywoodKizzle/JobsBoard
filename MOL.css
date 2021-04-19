@@ -47,6 +47,8 @@ body{
 .Settings li{
 border: 1px solid;
 border-bottom: none;
+border-right: none;
+border-left: none;
 height: 40px;
 }
  
@@ -129,7 +131,7 @@ header{
 	margin-left: 15px;
 }
 
-.fa-angle-right{
+.fa-angle-right,.Notification--toggle{
     position: absolute;
     right: 20px;
 }
