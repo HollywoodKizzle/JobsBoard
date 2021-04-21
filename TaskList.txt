@@ -1,7 +1,20 @@
 Task List
 
 
-Task 1
+X Task 1
 	Set up the remote repo for the Github jobs challenge
-Task 2
+X Task 2
 	Establish the markup for the desktop light section
+	
+  Task 3
+	Implement the page header section(navigation,search forms,etc.);
+		
+		Subtask 1
+			familiarize yourself again with BEM css
+			
+		Subtask 2
+			select appropiate class and id attributes for all elements within the page header 
+			
+		Subtask 3
+			Ensure all the elements within the page header have the appropiate attributes
+		

@@ -6,57 +6,62 @@
 	<meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-	<link ref="stylesheet" href="toggle.css">
-	<link ref="stylesheet" href="GithubJobs.css">
+	<link rel="stylesheet" href="toggle.css">
+	<link rel="stylesheet" href="GithubJobs.css">
 </head>
 
 <body>
 
 	<header>
 		<h1>devjobs</h1>
-		
-		<div>
+					
+		<label class="switch"><!--toggle switch implementation-->
 			<i><!--light icon--></i>
-			
-			<label class="switch"><!--toggle switch implementation-->
-				<input type="checkbox">
-				<span class="slider round"></span>
-			</label>
-			
+			<input type="checkbox">
+			<span class="slider round"></span>
 			<i><!--night time icon--></i>
-	
-		
+		</label>
+			
+					
 		<nav>
 			<form id="FilterForm">
-			<section>
-				<i><!--magnifying glass icon--></i>
-				<input type="text" placeholder="Filter by title">
+				<label>
+					<i><!--magnifying glass icon--></i>
+					<input type="text" placeholder="Filter by title">
+				</label>
 			
-			<div>P
-				<i><!--Location icon-->
-				<input type="text" placeholder="Filter by location">
-				
-			<div>P
-				<input type="checkbox">
-				<div>Full Time only
-				
-			<button type="submit" form="FilterForm" name="SearchButton formaction="">Search</button>
+				<label>
+					<i><!--Location icon--></i>
+					<input type="text" placeholder="Filter by location">
+				</label>
 			
+				<label>
+					<input type="checkbox">
+					Full Time only
+				</label>
 				
+				<button type="submit" form="FilterForm" name="SearchButton formaction="">Search</button>
+			</form>
+		</nav>
+	</header>
+	
 	<main>
 	
-		<div>P
-			<i><!--Company Logo-->
-			<span>Time job was posted
-			<span>Full Time or Part Time
-			<div>Job Title
-			<div>Name of Company
-			<div>Location of Company 
+		<section>
+			<header>
+				<i><!--Company Logo--></i>			
+				<time datetime="">Time job was posted</time>
+				<span>Full Time or Part Time</span>
+				<h1>Job Title</h1>
+			</header>
 			
-			
-		<button>Load More</button>
+			<p>Name of Company</p>
+			<p>Location of Company</p> 
+		</section>
+		
+		<button type="button">Load More</button>
 	
-
+	</main>
 </body>
 </html>
 
