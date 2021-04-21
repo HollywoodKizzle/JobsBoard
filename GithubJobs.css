@@ -1,14 +1,42 @@
 
 body{
 	font-family: "Kumbh Sans";
+	margin: 0px;
 }
 
 
-.pgheader{
-	
+.pgheader__label{
+width: 112px;
+height: 24px;*
+}
+
+.pgheader__svg{
+	position: absolute;
+	color: white;
+	z-index: 18;
+}
+
+.pgheader__background{
+	position:absolute;
+	z-index: -1;
+
 }
 .pgheader__h1{
-	color: blue;
-	font-size: 32px;
+	color: #FFFFFF;
+    font-size: 32px;}
 
+
+/*Page Header layout*/
+
+.pgheader__h1{
+	 position: absolute;
+	width: 115px;
+    left: 165px;
+    top: 46px;
+}
+
+.pgheader__label{
+position: absolute;
+left: 1163px;
+top: 45px;
 }
