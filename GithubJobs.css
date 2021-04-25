@@ -6,14 +6,13 @@ body{
 
 
 .pgheader__label{
-width: 112px;
-height: 24px;*
+/*width: 112px;
+height: 24px;*/
 }
 
 .pgheader__svg{
-	position: absolute;
+	
 	color: white;
-	z-index: 18;
 }
 
 .pgheader__background{

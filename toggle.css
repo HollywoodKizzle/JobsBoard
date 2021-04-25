@@ -22,7 +22,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #FFFFFF;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -36,6 +36,9 @@
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
+  width: 14px;
+  height: 14px;
+  background-color: #5964E0;
 }
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
@@ -45,9 +48,12 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  width: 48px;
+  height: 24px;
 }
 
 .slider.round:before {
+  /* display: none; */
   border-radius: 50%;
 }
 
