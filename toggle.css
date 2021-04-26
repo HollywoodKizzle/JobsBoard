@@ -57,3 +57,14 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+
+.darkmodeswitch{
+  display: flex;
+  align-items: center;
+}
+.pgheader__label{
+  border: 2px solid;
+  display: flex;
+  flex-direction: row;
+}
+
