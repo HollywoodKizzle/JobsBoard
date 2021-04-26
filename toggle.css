@@ -5,7 +5,7 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 48px;
   height: 34px;
 }
 /* Hide default HTML checkbox */
@@ -47,7 +47,7 @@ input:checked + .slider:before {
 }
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 12px;
   width: 48px;
   height: 24px;
 }
@@ -63,8 +63,12 @@ input:checked + .slider:before {
   align-items: center;
 }
 .pgheader__label{
-  border: 2px solid;
-  display: flex;
-  flex-direction: row;
+  margin-right: 16px;
 }
 
+.round{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}

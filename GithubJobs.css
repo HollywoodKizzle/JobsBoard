@@ -34,8 +34,6 @@ height: 24px;*/
     top: 46px;
 }
 
-/*.pgheader__label{
-position: absolute;
-left: 1163px;
-top: 45px;
-}*/
+.pgheader__lighticon{
+margin-right: 16px;
+}
