@@ -5,30 +5,36 @@ body{
 }
 
 
-.pgheader__label{
-/*width: 112px;
-height: 24px;*/
+.pgheader__backdropcontainer{
+	/*border: 1px solid;*/
+	height: 160px;
+	width: 1440px;
 }
+.pgheader__backdrop{
+	clip-path:inset(47px 0 0 0);
+}
+
+.pgheader__h1{
+	color: #FFFFFF;
+    font-size: 32px;}
+
 
 .pgheader__svg{
 	
 	color: white;
 }
 
-.pgheader__background{
-	position:absolute;
-	clip-path:inset(47px 0 0 0);
-	/*top: 47px;*/
+/********PAGE HEADER LAYOUT*********/
+
+
+.pgheader__backdrop{
+	position: absolute;
 	z-index: -1;
 	left: 6px;
-
 }
-.pgheader__h1{
-	color: #FFFFFF;
-    font-size: 32px;}
 
 
-/*Page Header layout*/
+
 
 .pgheader__h1{
 	 position: absolute;
@@ -43,11 +49,14 @@ height: 24px;*/
 margin-right: 16px;
 }
 
-.pgheader__backdrop{
-	border: 1px solid;
-	height: 160px;
-	width: 1440px;
+.pgheader__backdropcontainer{
 	position: relative;
 	margin-top: -47px;
-	/*left: 30px;*/
+}
+
+/**layout of the dark mode switch relative to the pgheader__backdropcontainer**/
+.darkmodeswitch{
+  position: absolute;
+  top: 45px;
+  left: 1187px;
 }

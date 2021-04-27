@@ -58,21 +58,28 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.darkmodeswitch{
+  /*border: 1px solid;*/
+  width: 112px;
+  height: 24px;
+}
 
+
+
+/***INTERNAL LAYOUT OF THE DARK MODE SWITCH***/
 .darkmodeswitch{
   display: flex;
   align-items: center;
-  border: 1px solid;*
-  width: 112px;
-  height: 24px;
-  position: absolute;
-  top: 45px;
-  left: 1187px;
+  
+ 
 }
+
+/*Container for the toggle switch*/
 .pgheader__label{
   margin-right: 16px;
 }
 
+/*vertically center the toggle switch within it's container*/
 .round{
   position: absolute;
   top: 50%;
