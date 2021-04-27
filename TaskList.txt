@@ -34,11 +34,14 @@ X Task 2
 			XSubtask 1
 				implement all the appropiate icons into the markup
 				
-			Subtask 2
+			XSubtask 2
 				implement the appropiate text and font properties for the textual content
 				
-			Subtask 3
+			XSubtask 3
 				implement the appropiate stylings for the search button
+				
+			Subtask 4
+				implement the dimensions and internal layout container for the navbar as a whole
 		
 		
 		

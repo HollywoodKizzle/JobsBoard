@@ -4,7 +4,7 @@ body{
 	margin: 0px;
 }
 
-
+/**********PAGE HEADER**********/
 .pgheader__backdropcontainer{
 	/*border: 1px solid;*/
 	height: 160px;
@@ -59,4 +59,31 @@ margin-right: 16px;
   position: absolute;
   top: 45px;
   left: 1187px;
+}
+
+
+
+/******MAIN NAVIGATION*******/
+
+.nav__titlefield::placeholder,.nav__locationfield::placeholder,#searchbutton{
+	text-align:center;
+	line-height: 16.09px;
+	font-size: 16px;
+}
+
+.nav__fulltimelabel{
+	font-style: normal;
+    font-weight: 700;
+       color: #19202D;}
+
+#searchbutton{
+	background-color: #5964E0;
+	color: #FFFFFF;;
+	font-weight: bold;
+	height: 48px;
+	width: 123px;
+	font-family: "Kumbh Sans";
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px; 
 }
