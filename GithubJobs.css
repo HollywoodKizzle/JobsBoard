@@ -17,6 +17,8 @@ height: 24px;*/
 
 .pgheader__background{
 	position:absolute;
+	
+	/*top: 47px;*/
 	z-index: -1;
 
 }
@@ -29,11 +31,21 @@ height: 24px;*/
 
 .pgheader__h1{
 	 position: absolute;
-	width: 115px;
-    left: 165px;
-    top: 46px;
+	 width: 115px;
+	 left: 158px;
+	 top: 94px;
+	 margin: 0;
+	 margin-left: 28px;
 }
 
 .pgheader__lighticon{
 margin-right: 16px;
+}
+
+.pgheader__backdrop{
+	border: 1px solid;
+	height: 160px;
+	width: 1440px;
+	position: relative;
+	left: 30px;
 }
