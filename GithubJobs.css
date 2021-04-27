@@ -34,7 +34,7 @@ height: 24px;*/
 	 position: absolute;
 	 width: 115px;
 	 left: 158px;
-	 top: 94px;
+	 top: 47px;
 	 margin: 0;
 	 margin-left: 28px;
 }
@@ -48,6 +48,6 @@ margin-right: 16px;
 	height: 160px;
 	width: 1440px;
 	position: relative;
-	padding-top: -47px;
+	margin-top: -47px;
 	/*left: 30px;*/
 }
