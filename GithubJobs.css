@@ -20,6 +20,7 @@ height: 24px;*/
 	clip-path:inset(47px 0 0 0);
 	/*top: 47px;*/
 	z-index: -1;
+	left: 6px;
 
 }
 .pgheader__h1{
@@ -43,9 +44,10 @@ margin-right: 16px;
 }
 
 .pgheader__backdrop{
-	/*border: 1px solid;*/
+	border: 1px solid;
 	height: 160px;
 	width: 1440px;
 	position: relative;
-	left: 30px;
+	padding-top: -47px;
+	/*left: 30px;*/
 }
