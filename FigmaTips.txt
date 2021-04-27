@@ -1,0 +1,41 @@
+Figma Tips
+
+
+article breaking down the basics of using the figma editor>>https://help.figma.com/hc/en-us/sections/360006537574-Tour-the-Figma-Editor
+
+
+
+For Figma-Editor
+	 Move between nested objects using the keyboard shortcuts:
+		Select Child : press enter
+		Select Parentk: press shift + enter
+		Select Next Sibling: press tab
+		Select Previous Sibling: press shift + tab
+		
+		
+	[Measure distances between objects, even if they are nested within Frames, groups, or Components.
+	
+		Select the first object in the canvas
+		Hold down the modifier key: Alt [for windows]
+		Hover over the second object.
+		Figma will display a red line between the two objects, as well as a measurement in pts (points)]Origin:https://help.figma.com/hc/en-us/articles/360039956974-Measure-distances-between-layers (URL);
+	
+
+
+
+Object
+	anything in the canvas that has a set of css properties viewable in the right sidebar via the inspector tab
+	
+
+Layer
+	a layer is a Frame,Group, or object in the canvas that is accessible via the layers panel of the left sidebar
+	
+Group
+	a set of two or more layers that behave as a single layer within  the Layers panel of the left sidebar 
+	
+Frames
+	a layer with a size explicity set by the user
+	
+	
+
+ 
