@@ -78,6 +78,17 @@ left: 165px;}
 	width: 463px;
 }
 
+.nav__titlefield{
+	width: 271px;
+}
+
+.nav__locationfieldlabel{
+	width: 300px;
+}
+.nav__locationfield{
+	width: 135px;
+	margin-left: 16.9px;
+}
 .nav__locationfieldlabel,.nav__titlefieldlabel{
 	border-right:1px solid #6E8098;
 	border-top-right-radius: 0px;
@@ -100,8 +111,10 @@ left: 165px;}
 }
 
 .nav__titlefield::placeholder,.nav__locationfield::placeholder{
-	color: background: #19202D;
+	color: #19202D;
 	opacity: 0.5;
+	font-weight: 400;
+	font-family: "Kumbh Sans";
 }
 
 .nav__fulltimelabel{
@@ -137,4 +150,8 @@ left: 165px;}
 
 .nav__titlefield{
 	margin-left: 10.06px;
+}
+
+.nav__locationsymbol{
+	margin-left: 20.09px;
 }
