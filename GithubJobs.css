@@ -70,13 +70,16 @@ width: 1110px;
 position: relative;
 left: 165px;}
 
+.nav__form{
+	border-radius: 6px;
+}
+
 .nav__titlefieldlabel{
 	width: 463px;
 }
 
 .nav__locationfieldlabel,.nav__titlefieldlabel{
 	border-right:1px solid #6E8098;
-	border-radius: 6px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 	height: 80px;
