@@ -68,7 +68,8 @@ margin-right: 16px;
 .nav{
 width: 1110px;
 position: relative;
-left: 165px;}
+left: 165px;
+margin-top: 7px;}
 
 .nav__form{
 	border-radius: 6px;
@@ -96,10 +97,10 @@ left: 165px;}
 	display: inline-flex;
 	align-items: center;
 	/*justify-content: space-evenly;*/
-	border: 1px solid;
+	/*border: 1px solid;*/
 	/*border-left: none;*/
 	height: 80px;
-	width: 334px;
+	width: 345px;
 }
 
 .nav__checkbox{
@@ -169,6 +170,7 @@ opacity: 10.35%;
 .nav__form{
  /*border: 1px solid yellow;*/
  background: #FFFFFF;
+ display: flex;
 }
 
 .nav__magnifyingglass{
@@ -184,6 +186,16 @@ opacity: 10.35%;
 }
 
 .nav__checkbox{
-	/*position: absolute;*/
+	margin-left: 24px;
 
+}
+
+.nav__fulltimelabel{
+	margin-left:14px;
+	margin-top: 5px;
+}
+
+#searchbutton{
+	margin-left: 32px;
+	margin-top: 7px;
 }
