@@ -90,6 +90,12 @@ left: 165px;}
 	margin-left: 16.9px;
 }
 
+.nav__div{
+	display: inline-flex;
+	align-items: center;
+	justify-content: start;
+}
+
 .nav__checkbox{
 width: 24px;
 height: 24px;
@@ -169,4 +175,9 @@ opacity: 10.35%;
 
 .nav__locationsymbol{
 	margin-left: 20.09px;
+}
+
+.nav__checkbox{
+	/*position: absolute;*/
+
 }
