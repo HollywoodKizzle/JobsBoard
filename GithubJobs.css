@@ -70,10 +70,23 @@ width: 1110px;
 position: relative;
 left: 165px;}
 
+.nav__titlefieldlabel{
+	width: 463px;
+}
+
+.nav__locationfieldlabel,.nav__titlefieldlabel{
+	border-right:1px solid #6E8098;
+	border-radius: 6px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	height: 80px;
+	display: inline-flex;
+	align-items: center;
+}
+
 .nav__locationfield,.nav__titlefield{
 	border: none;
-	border-right:1px solid #6E8098;
-	height: 80px;
+	
 
 }
 .nav__titlefield::placeholder,.nav__locationfield::placeholder,#searchbutton{
@@ -111,7 +124,14 @@ left: 165px;}
 /******MAIN NAVIGATION INTERNAL LAYOUT******/
 
 .nav__form{
- border: 1px solid yellow;
+ /*border: 1px solid yellow;*/
  background: #FFFFFF;
-	
+}
+
+.nav__magnifyingglass{
+	margin-left: 32px;
+}
+
+.nav__titlefield{
+	margin-left: 10.06px;
 }
