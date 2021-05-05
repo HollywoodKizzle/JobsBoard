@@ -2,6 +2,7 @@
 body{
 	font-family: "Kumbh Sans";
 	margin: 0px;
+	background-color: #F2F2F2;
 }
 
 /**********PAGE HEADER**********/
@@ -64,11 +65,27 @@ margin-right: 16px;
 
 
 /******MAIN NAVIGATION*******/
+.nav{
+width: 1110px;
+position: relative;
+left: 165px;}
 
+.nav__locationfield,.nav__titlefield{
+	border: none;
+	border-right:1px solid #6E8098;
+	height: 80px;
+
+}
 .nav__titlefield::placeholder,.nav__locationfield::placeholder,#searchbutton{
 	text-align:center;
 	line-height: 16.09px;
 	font-size: 16px;
+
+}
+
+.nav__titlefield::placeholder,.nav__locationfield::placeholder{
+	color: background: #19202D;
+	opacity: 0.5;
 }
 
 .nav__fulltimelabel{
@@ -86,4 +103,15 @@ margin-right: 16px;
 	border-radius: 5px;
 	border: none;
 	margin-top: 10px; 
+}
+
+
+
+
+/******MAIN NAVIGATION INTERNAL LAYOUT******/
+
+.nav__form{
+ border: 1px solid yellow;
+ background: #FFFFFF;
+	
 }
