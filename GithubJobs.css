@@ -89,6 +89,21 @@ left: 165px;}
 	width: 135px;
 	margin-left: 16.9px;
 }
+
+.nav__checkbox{
+width: 24px;
+height: 24px;
+ -webkit-appearance: none;
+-moz-appearance: none;
+-o-appearance: none;
+appearance: none;
+border-radius: 3px;
+background: #19202D;
+opacity: 10.35%;
+
+  
+
+}
 .nav__locationfieldlabel,.nav__titlefieldlabel{
 	border-right:1px solid #6E8098;
 	border-top-right-radius: 0px;
