@@ -84,6 +84,7 @@ left: 165px;}
 
 .nav__locationfieldlabel{
 	width: 300px;
+	
 }
 .nav__locationfield{
 	width: 135px;
@@ -91,9 +92,14 @@ left: 165px;}
 }
 
 .nav__div{
+	
 	display: inline-flex;
 	align-items: center;
-	justify-content: start;
+	/*justify-content: space-evenly;*/
+	border: 1px solid;
+	/*border-left: none;*/
+	height: 80px;
+	width: 334px;
 }
 
 .nav__checkbox{
